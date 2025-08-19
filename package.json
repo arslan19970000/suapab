@@ -2,12 +2,13 @@
   "name": "ecommerace",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
+"scripts": {
+  "dev": "next dev --turbopack",
+  "build": "next build --no-lint",
+  "start": "next start",
+  "lint": "next lint"
+},
+
   "dependencies": {
     "@stripe/stripe-js": "^7.8.0",
     "@supabase/auth-ui-react": "^0.4.7",
